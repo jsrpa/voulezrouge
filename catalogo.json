@@ -1,0 +1,167 @@
+{
+  "pecas": {
+    "CSPUB15022": {
+      "nome": "Cordão Cruz",
+      "cat": "Colar",
+      "preco": 475,
+      "sku": "CSPUB15022"
+    },
+    "PCPUS71374": {
+      "nome": "Piercing Gotinha Turmalina",
+      "cat": "Piercing",
+      "preco": 139,
+      "sku": "PCPUS71374"
+    },
+    "BCPUS72599": {
+      "nome": "Brinco Oval Cravejado",
+      "cat": "Brinco",
+      "preco": 379,
+      "sku": "BCPUS72599"
+    },
+    "CSP5S73688": {
+      "nome": "Colar Cruz Inteira Flores",
+      "cat": "Colar",
+      "preco": 339,
+      "sku": "CSP5S73688"
+    },
+    "ACP1S73805": {
+      "nome": "Anel Quadrado Zircônia",
+      "cat": "Anel",
+      "preco": 255,
+      "sku": "ACP1S73805"
+    },
+    "ACP1S74649": {
+      "nome": "Anel Solitário 5mm",
+      "cat": "Anel",
+      "preco": 349,
+      "sku": "ACP1S74649"
+    },
+    "BSPUS74660": {
+      "nome": "Brinco Earcuff Três Corações",
+      "cat": "Brinco",
+      "preco": 359,
+      "sku": "BSPUS74660"
+    },
+    "PSP1S74667": {
+      "nome": "Pulseira Nossa Sra. das Graças",
+      "cat": "Pulseira",
+      "preco": 529,
+      "sku": "PSP1S74667"
+    },
+    "ACP1S74750": {
+      "nome": "Anel Gota 6x9",
+      "cat": "Anel",
+      "preco": 449,
+      "sku": "ACP1S74750"
+    },
+    "PSP1S74768": {
+      "nome": "Pulseira Borboleta Pérola",
+      "cat": "Pulseira",
+      "preco": 305,
+      "sku": "PSP1S74768"
+    },
+    "CSP5S74769": {
+      "nome": "Colar Borboleta Pérola",
+      "cat": "Colar",
+      "preco": 389,
+      "sku": "CSP5S74769"
+    },
+    "ASP1S74770": {
+      "nome": "Anel Curvado Zircônia",
+      "cat": "Anel",
+      "preco": 439,
+      "sku": "ASP1S74770"
+    },
+    "PBO2S141475": {
+      "nome": "Pulseira Trevila Dourada",
+      "cat": "Pulseira",
+      "preco": 159,
+      "sku": "PBO2S141475"
+    },
+    "CCPUN13310": {
+      "nome": "Colar Cruz Fina Cravejada",
+      "cat": "Colar",
+      "preco": 105,
+      "sku": "CCPUN13310"
+    },
+    "CCPUN20716": {
+      "nome": "Riviera Clássica",
+      "cat": "Colar",
+      "preco": 315,
+      "sku": "CCPUN20716"
+    },
+    "CCPUN30040": {
+      "nome": "Riviera Três Garras 3mm",
+      "cat": "Colar",
+      "preco": 459,
+      "sku": "CCPUN30040"
+    },
+    "CCPUN30936": {
+      "nome": "Colar Medalha Nossa Senhora",
+      "cat": "Colar",
+      "preco": 125,
+      "sku": "CCPUN30936"
+    },
+    "CCPUN16540": {
+      "nome": "Riviera 4mm Central",
+      "cat": "Colar",
+      "preco": 439,
+      "sku": "CCPUN16540"
+    },
+    "CCPUN32662": {
+      "nome": "Colar Pingente Oval",
+      "cat": "Colar",
+      "preco": 149,
+      "sku": "CCPUN32662"
+    },
+    "CSOUS145365": {
+      "nome": "Colar Virgem Maria",
+      "cat": "Colar",
+      "preco": 255,
+      "sku": "CSOUS145365"
+    },
+    "PSOUS145387": {
+      "nome": "Pulseira Nossa Sra. Dourada",
+      "cat": "Pulseira",
+      "preco": 289,
+      "sku": "PSOUS145387"
+    },
+    "ACP1S74084": {
+      "nome": "Anel Flor de Gotas",
+      "cat": "Anel",
+      "preco": 255,
+      "sku": "ACP1S74084"
+    }
+  },
+  "hotspots": {
+    "1-aneis": [
+      "ACP1S73805",
+      "ACP1S74649"
+    ],
+    "2-pul-nsa": "PSP1S74667",
+    "2-col-vm": "CSOUS145365",
+    "2-col-nsa1": "CCPUN30936",
+    "2-cordao": "CSPUB15022",
+    "2-riv-cor": "CCPUN20716",
+    "2-riv-cl": "CCPUN30040",
+    "3-anel": "ASP1S74770",
+    "3-riv-top": "CCPUN30040",
+    "3-riv-bot": "CCPUN16540",
+    "4-earcuff": "PCPUS71374",
+    "4-brinco": "BSPUS74660",
+    "4-aneis": "ASP1S74770",
+    "4-riv1": "CCPUN20716",
+    "4-riv2": "CCPUN16540",
+    "4-pul-nsa": "PSP1S74667",
+    "5-riv-cl": "CCPUN20716",
+    "5-col-borb": "CSP5S74769",
+    "5-anel-flor": "ACP1S74084",
+    "5-pul-borb": "PSP1S74768",
+    "5-pul-trv": "PBO2S141475",
+    "6-riv": "CCPUN20716",
+    "6-cruz": "CSPUB15022",
+    "6-vm": "CSOUS145365",
+    "6-pul-nsa": "PSOUS145387",
+    "6-pul-trv": "PBO2S141475"
+  }
+}
