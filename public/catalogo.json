@@ -10,7 +10,7 @@
       "sku": "PCPUS71374",
       "nome": "BRINCO CRISTAL TURMALINA ROSA ZIRCÔNIA CHOCOLATE PIERCING GOTINHA (PAR)",
       "cat": "Piercing",
-      "preco": 139
+      "preco": 145
     },
     "BCPUS72599": {
       "sku": "BCPUS72599",
@@ -22,31 +22,31 @@
       "sku": "CSP5S73688",
       "nome": "COLAR ZIRCÔNIA BRANCA CRUZ INTEIRA FLORES",
       "cat": "Colar",
-      "preco": 339
+      "preco": 345
     },
     "BCPUS73772": {
       "sku": "BCPUS73772",
       "nome": "BRINCO ZIRCÔNIA BRANCA ARGOLA OVAL COM PONTO DE LUZ",
       "cat": "Brinco",
-      "preco": 339
+      "preco": 345
     },
     "ACP1S73805": {
       "sku": "ACP1S73805",
       "nome": "ANEL ZIRCÔNIA BRANCA QUADRADO",
       "cat": "Anel",
-      "preco": 255
+      "preco": 259
     },
     "BCPUS73902": {
       "sku": "BCPUS73902",
       "nome": "BRINCO ZIRCÔNIA BRANCA REDONDO 7MM LAPIDACAO ROSA CRAVACAO HALO",
       "cat": "Brinco",
-      "preco": 339
+      "preco": 350
     },
     "BCPUS73913": {
       "sku": "BCPUS73913",
       "nome": "BRINCO ZIRCÔNIA BRANCA REDONDO 6MM CRAVAÇÃO EM GARRAS",
       "cat": "Brinco",
-      "preco": 129
+      "preco": 136
     },
     "ACP1S74084": {
       "sku": "ACP1S74084",
@@ -58,43 +58,43 @@
       "sku": "ACP1S74649",
       "nome": "ANEL ZIRCÔNIA BRANCA SOLITÁRIO PONTO DE LUZ 5MM",
       "cat": "Anel",
-      "preco": 349
+      "preco": 356
     },
     "BSPUS74660": {
       "sku": "BSPUS74660",
       "nome": "BRINCO FUSION MORGANITA ZIRCÔNIA BRANCA EARCUFF TRÊS CORAÇÕES",
       "cat": "Brinco",
-      "preco": 359
+      "preco": 360
     },
     "PSP1S74667": {
       "sku": "PSP1S74667",
       "nome": "PULSEIRA FUSION TURMALINA LIGHT ZIRCÔNIA BRANCA MEDALHA NOSSA SENHORA DAS GRAÇAS COM CORAÇÕES",
       "cat": "Pulseira",
-      "preco": 529
+      "preco": 536
     },
     "ACP1S74750": {
       "sku": "ACP1S74750",
       "nome": "ANEL TOPÁZIO INCOLOR ZIRCÔNIA BRANCA GOTA 6X9",
       "cat": "Anel",
-      "preco": 449
+      "preco": 450
     },
     "PSP1S74768": {
       "sku": "PSP1S74768",
       "nome": "PULSEIRA PÉROLA ZIRCÔNIA BRANCA BORBOLETA",
       "cat": "Pulseira",
-      "preco": 305
+      "preco": 306
     },
     "CSP5S74769": {
       "sku": "CSP5S74769",
       "nome": "COLAR PÉROLA ZIRCÔNIA BRANCA BORBOLETA",
       "cat": "Colar",
-      "preco": 389
+      "preco": 390
     },
     "ASP1S74770": {
       "sku": "ASP1S74770",
       "nome": "ANEL ZIRCÔNIA BRANCA CURVADO",
       "cat": "Anel",
-      "preco": 435
+      "preco": 436
     },
     "PBO2S141475": {
       "sku": "PBO2S141475",
@@ -118,25 +118,25 @@
       "sku": "CCPUN30040",
       "nome": "COLAR RIVIERA TRES GARRAS 3 MM RODIO BRANCO | ZIRCONIA BR",
       "cat": "Colar",
-      "preco": 459
+      "preco": 465
     },
     "CCPUN30936": {
       "sku": "CCPUN30936",
       "nome": "COLAR VENEZIANA MEDALHA RETANGULAR NOSSA SENHORA CRAVA",
       "cat": "Colar",
-      "preco": 125
+      "preco": 129
     },
     "CCPUN16540": {
       "sku": "CCPUN16540",
       "nome": "COLAR RIVIERA 3 GARRAS 4 MM COM ZIRCONIA MAIOR CENTRAL RO",
       "cat": "Colar",
-      "preco": 439
+      "preco": 445
     },
     "CCPUN32662": {
       "sku": "CCPUN32662",
       "nome": "COLAR VENEZIANA COM PINGENTE EM FORMATO OVAL CRAVEJADO",
       "cat": "Colar",
-      "preco": 145
+      "preco": 149
     },
     "CSOUS145365": {
       "sku": "CSOUS145365",
@@ -148,7 +148,7 @@
       "sku": "PSOUS145387",
       "nome": "PULSEIRA ZIRCONIA BRANCA MEDALHA MILAGROSA DE N SRA DAS GRAÇAS",
       "cat": "Pulseira",
-      "preco": 289
+      "preco": 290
     }
   },
   "hotspots": {
