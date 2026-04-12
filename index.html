@@ -1134,7 +1134,7 @@ document.querySelectorAll('[data-rev], .tl-row, .mf-row').forEach(el => io.obser
 <script>
 // ── CATÁLOGO DINÂMICO (lê de /catalogo.json) ─────────────────────────
 (function() {
-  fetch('/catalogo.json')
+  fetch('/public/catalogo.json')
     .then(r => r.ok ? r.json() : null)
     .catch(() => null)
     .then(data => {
