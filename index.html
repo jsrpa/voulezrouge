@@ -1259,6 +1259,12 @@ document.querySelectorAll('[data-rev], .tl-row, .mf-row').forEach(el => io.obser
       const hotspots = data.hotspots;
 
       function fmt(preco) { return 'R$' + preco; }
+      function toTitleCase(str) {
+        return str.split(' ').map(function(w) {
+          if (/^[A-Z]+$/.test(w) && w.length <= 2) return w;
+          return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+        }).join(' ');
+      }
 
       function getPeca(hsId) {
         const ref = hotspots[hsId];
@@ -1287,31 +1293,29 @@ document.querySelectorAll('[data-rev], .tl-row, .mf-row').forEach(el => io.obser
           waLink.href = 'https://wa.me/5541936183674?text=' + msg;
         }
       });
-
-      // Atualiza rodapé de cada pin (pin-footer-row)
-      // Cada .pin tem um id lkN correspondente
+      // Reconstrói rodapé de cada pin dinamicamente a partir dos hotspots
       document.querySelectorAll('.look-wrap').forEach(wrap => {
-        const lkId = wrap.id; // lk1, lk2...
-        const num  = lkId.replace('lk','');
-        const rows = wrap.closest('.pin')
-                        ?.querySelectorAll('.pin-footer-row') || [];
+        const itemsEl = wrap.closest('.pin')?.querySelector('.pin-footer-items');
+        if (!itemsEl) return;
 
-        rows.forEach(row => {
-          const nomeEl  = row.querySelector('.pin-footer-nome');
-          const precoEl = row.querySelector('.pin-footer-preco');
-          if (!nomeEl || !precoEl) return;
-
-          // Find matching hotspot by name
-          const currentNome = nomeEl.textContent.trim();
-          // Find hs in this wrap whose name matches
-          wrap.querySelectorAll('.lk-hs').forEach(hs => {
-            const peca = getPeca(hs.dataset.id);
-            if (peca && peca.nome === currentNome) {
-              nomeEl.textContent  = peca.nome;
-              precoEl.textContent = fmt(peca.preco);
-            }
+        const newRows = [];
+        wrap.querySelectorAll('.lk-hs').forEach(hs => {
+          const ref = hotspots[hs.dataset.id];
+          if (!ref) return;
+          const skus = Array.isArray(ref) ? ref : [ref];
+          skus.forEach(sku => {
+            const peca = pecas[sku];
+            if (!peca) return;
+            newRows.push(
+              '<div class="pin-footer-row">' +
+                '<span class="pin-footer-nome">' + toTitleCase(peca.nome) + '</span>' +
+                '<span class="pin-footer-preco">' + fmt(peca.preco) + '</span>' +
+              '</div>'
+            );
           });
         });
+
+        if (newRows.length) itemsEl.innerHTML = newRows.join('');
       });
     });
 })();
